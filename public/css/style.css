@@ -1,0 +1,53 @@
+/*
+ * Sidebar
+ */
+
+.profile {
+  display: inline-block;
+}
+
+.profile img {
+  max-width: 120px;
+  max-height: 120px;
+  border-radius: 75px;
+}
+
+/*
+ * Posts
+ */
+
+.post-date {
+  font-family: 'Lucida Console', 'Andale Mono', monospace;
+}
+
+.posts .post-date {
+  display: inline;
+  padding-right: 1rem;
+}
+
+.posts .post-title {
+  display: inline;
+
+  font-size: 1.5rem;
+}
+
+.posts .post {
+  margin-bottom: 1rem;
+}
+
+.post-meta, .post-meta a {
+  color: #b3b3b3;
+  font-size: 0.9rem;
+}
+
+.post-meta a {
+  text-decoration: underline;
+}
+
+/*
+ * Footer
+ */
+
+footer {
+  font-size: 0.9rem;
+}
