@@ -20,8 +20,15 @@
   font-family: 'Lucida Console', 'Andale Mono', monospace;
 }
 
+.posts .post {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 0.8rem;
+}
+
 .posts .post-date {
-  display: inline;
+  flex-shrink: 0;
+  margin: 0;
   padding-right: 1rem;
 }
 
@@ -29,10 +36,6 @@
   display: inline;
 
   font-size: 1.5rem;
-}
-
-.posts .post {
-  margin-bottom: 1rem;
 }
 
 .post-meta, .post-meta a {
