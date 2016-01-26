@@ -1,4 +1,19 @@
 /*
+ * Syntax highlighting
+ */
+
+.highlight {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.highlight pre {
+  overflow-x: scroll;
+  white-space: pre;
+  word-wrap: normal;
+}
+
+/*
  * Sidebar
  */
 
