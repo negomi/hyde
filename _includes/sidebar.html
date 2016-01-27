@@ -11,9 +11,9 @@
       {% comment %}
         Generate list of category links.
       {% endcomment %}
-      {% assign sorted_categories = site.categories | sort: first %}
+      {% assign sorted_categories = site.categories | sort %}
       {% for category in sorted_categories %}
-      {% capture category_url %}/categories/{{ category | first | downcase | replace:' ','-' }}/{% endcapture %}
+      {% capture category_url %}/categories/{{ category | first | slugify: 'pretty' }}/{% endcapture %}
       <a class="sidebar-nav-item{% if page.url == category_url %} active{% endif %}" href="{{ category_url }}">{{ category | first }}</a>
       {% endfor %}
       <hr>
